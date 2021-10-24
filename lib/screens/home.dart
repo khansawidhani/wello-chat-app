@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wello_chat_application/screens/chat_screend.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({ Key? key }) : super(key: key);
@@ -6,8 +7,8 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Wello Chat"),),
-      body: Center(child: Text("Welcome to WELLO CHAT"),),
+      appBar: AppBar(title: const Text("Wello Chat"),),
+      body: ChatScreen()
     );
   }
 }
