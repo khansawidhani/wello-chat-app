@@ -8,10 +8,11 @@ Widget header = Padding(
         const Padding(
           padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
           child: Text(
-            "Conversations",
+            "Wello Chat",
             style: TextStyle(
                 fontSize: 30.0,
-                // fontFamily: "Eczar",
+                fontFamily: "Eczar",
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
         ),
