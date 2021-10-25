@@ -32,7 +32,8 @@ By ***KHANSA WIDHANI***
 [instagram](https://www.instagram.com/khansawidhani/)
 
 Mail Me: khansawidhani@gmail.com
-OR
+
+**OR**
 
 (https://www.google.com/search?q=khansawidhani)
 
