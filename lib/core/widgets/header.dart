@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget header = Padding(
+Widget header(context)=>Padding(
     padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -23,6 +23,7 @@ Widget header = Padding(
               color: Colors.teal[50]),
           child: GestureDetector(
             onTap: (){
+              Navigator.pushNamed(context,"/new_chat");
               // lead to contacts 
             },
             child: Row(
