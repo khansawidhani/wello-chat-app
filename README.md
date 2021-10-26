@@ -8,10 +8,13 @@ New Chat Application made with [Flutter](https://flutter.dev/) by Google.
 
 **UI Screenshots:**
 
-![wello-chat](https://user-images.githubusercontent.com/57295367/138664031-e4ed883f-d33c-4d8a-8db8-51890668a92a.png) 
-![chat-screen-1](https://user-images.githubusercontent.com/57295367/138664017-bdebf38d-1c0f-49cd-a98b-ee941e60e3bc.png) 
-![chat-screen-2](https://user-images.githubusercontent.com/57295367/138664135-1b79958c-bdb1-4a83-83df-48c3fdd02271.png) 
+![conversations-screens](https://user-images.githubusercontent.com/57295367/138825222-567ffa54-b2ab-4427-84b6-796db3f6fda4.png) 
+![chat-screen](https://user-images.githubusercontent.com/57295367/138825040-eb7a8bda-3abc-4953-826e-8f37b69636ae.png) 
 
+
+![starred-screen](https://user-images.githubusercontent.com/57295367/138824517-a9cf27bb-7182-4450-be58-b9a032210d2b.png) 
+![start_chat](https://user-images.githubusercontent.com/57295367/138824535-d3d05ba8-9c85-422f-ae20-8a390ec3ee96.png) 
+![user-profile](https://user-images.githubusercontent.com/57295367/138824546-93e5e527-5a40-47d8-a1e8-5b6dcd453b45.png) 
 
 
 **Note:**
