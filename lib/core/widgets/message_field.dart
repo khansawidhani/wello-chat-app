@@ -7,15 +7,16 @@ Widget messageField(){
   return Align(
               alignment: Alignment.bottomLeft,
               child: Container(
-                height: 52,
+                height: 62,
                 width: double.infinity,
                 decoration: BoxDecoration(
                     color: Colors.white,
+                    // border: Border.all()
                     
                     ),
                 padding: EdgeInsets.only(
                   left: 10,
-                  top: 10,
+                  top: 5,
                   bottom: 10,
                 ),
                 child: Row(
@@ -37,6 +38,7 @@ Widget messageField(){
                     ),
                     Expanded(
                       child: TextField(
+                        style: TextStyle(fontSize: 16.0),
                         minLines: 1,
                         maxLines: 3,
                         decoration: InputDecoration(
@@ -50,12 +52,15 @@ Widget messageField(){
                     SizedBox(
                       width: 10.0,
                     ),
-                    FloatingActionButton(
-                      onPressed: () {},
-                      child: Icon(
-                        Icons.send,
+                    Container(
+                      padding: EdgeInsets.all(3.0),
+                      child: FloatingActionButton(
+                        onPressed: () {},
+                        child: Icon(
+                          Icons.send,
+                        ),
+                        elevation: 0.0,
                       ),
-                      elevation: 0.0,
                     )
                   ],
                 ),
