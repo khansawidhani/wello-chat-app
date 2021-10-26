@@ -93,22 +93,31 @@ class Conversations extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                header,
+                header(context),
                 searchBox,
                 ListView.separated(
-                  separatorBuilder: (context, index){return Divider(color: Colors.grey, height: 2.0, indent: 70.0, endIndent: 10.0,);},
-                  padding: const EdgeInsets.all(0),
+                    separatorBuilder: (context, index) {
+                      return const Divider(
+                        color: Colors.grey,
+                        height: 2.0,
+                        indent: 70.0,
+                        endIndent: 10.0,
+                      );
+                    },
+                    padding: const EdgeInsets.all(0),
                     physics: const NeverScrollableScrollPhysics(),
                     shrinkWrap: true,
                     itemCount: chatUsers.length,
                     itemBuilder: (BuildContext context, int index) {
                       return ConversationList(
-                          name: chatUsers[index].name,
-                          message: chatUsers[index].messageText,
-                          imageurl: chatUsers[index].imgUrl,
-                          time: chatUsers[index].time,
-                          isMessageRead:
-                              (index == 0 || index == 3) ? false : true, index: index,);
+                        name: chatUsers[index].name,
+                        message: chatUsers[index].messageText,
+                        imageurl: chatUsers[index].imgUrl,
+                        time: chatUsers[index].time,
+                        isMessageRead:
+                            (index == 0 || index == 3) ? false : true,
+                        index: index,
+                      );
                     })
               ],
             )),
@@ -116,4 +125,3 @@ class Conversations extends StatelessWidget {
     );
   }
 }
-
